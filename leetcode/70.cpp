@@ -21,3 +21,29 @@ int main() {
 
 	return 0;
 }
+
+//class Solution {
+//public:
+//	int count(int n)
+//	{
+//		vector<int> nums{ 1,2 };
+//		vector<int> dp(n + 1);
+//		dp[0] = 1;
+//		for (int i = 1; i <= n; i++)
+//		{
+//			for (int j = 0; j < 2; j++) {
+//				if (i>=nums[j])
+//				{
+//					dp[i] = dp[i] + dp[i - nums[j]];
+//				}
+//			}
+//		}
+//		return dp[n];
+//	}
+//};
+//
+//int main()
+//{
+//	Solution so;
+//	cout << so.count(3) << endl;
+//}
