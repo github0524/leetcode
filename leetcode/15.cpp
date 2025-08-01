@@ -60,7 +60,7 @@ std::ostream& operator<<(std::ostream& os, const std::vector<std::vector<int>>& 
 
 int main()
 {
-    vector<int> nums = { 1,2,-2,-1 };
+    vector<int> nums = { 1,-1,2,-1 };
     Solution so;
     auto result = so.threeSum(nums);
     std::cout << "三数之和结果：\n" << result << std::endl;
